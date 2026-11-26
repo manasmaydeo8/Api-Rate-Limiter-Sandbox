@@ -1,0 +1,20 @@
+{
+  "name": "api-rate-limiter-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongodb": "^7.9.1",
+    "mongoose": "^9.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
